@@ -6,11 +6,13 @@ const grid = document.getElementById('grid-container');
 
 for(let i = 0; i < nombres.length; i++){
     let card = document.createElement('div');
+    card.className = 'card'
     let titulo = document.createElement('h1');
+    titulo.className = 'space'
     titulo.textContent = nombres[i];
     card.appendChild(titulo);
     let link = document.createElement('a');
-    link.setAttribute('src','assets/tps/' + srcs[i]+'/index.html');
+    link.setAttribute('href','assets/tps/' + srcs[i]+'/index.html');
     let foto = document.createElement('img');
     foto.setAttribute('src','assets/imgs/' + fotos[i]);
     link.appendChild(foto)
