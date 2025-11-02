@@ -1,6 +1,6 @@
-let nombres = ['Lola Mazza','Luciano Neiman', 'Martin Israel', 'Mia Carini', 'Micaela Gutterman','Valentin Sierra'];
-let fotos = ['lola.png','lucho.png','martin.png','mia.png','micaela.png','valentin.png'];
-let srcs = ['lola', 'lucho','martin','mia','micaela','valentin'];
+let nombres = ['Cami Zalcman','Julian Riquelme','Lola Mazza','Luciano Neiman', 'Martin Israel', 'Mia Carini', 'Micaela Gutterman','Sebi Rotbard','Sofi Villaruel','Tobias Arraiza','Valentin Sierra','Vicky Villalba'];
+let fotos = ['cami.png','julian.png','lola.png','lucho.png','martin.png','mia.png','micaela.png','sebi.png','sofi.png','tobi.png','valentin.png','vicky.png'];
+let srcs = ['cami','julian','lola', 'lucho','martin','mia','micaela','sebi','sofi','tobi','valentin','vicky'];
 
 const grid = document.getElementById('grid-container');
 

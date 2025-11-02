@@ -1,0 +1,12 @@
+:root{
+  --bg: #07080b;
+  --hud: rgba(18, 20, 26, .78);
+  --txt: #e7e7ea;
+  --muted:#9aa3ad;
+}
+html, body  { 
+    height:100%; 
+    margin:0; 
+    background: var(--bg); 
+    color:var(--txt); 
+ }
